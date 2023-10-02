@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "Xv47XZLrM2+QVavuNE6+2xDFyjQ8dr5qJx62AAZW8I8=",
+  "Source": "Bnt-Api-Gateway.Infrastructure",
+  "BasePath": "_content/Bnt-Api-Gateway.Infrastructure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj",
+      "Version": 2,
+      "Source": "Bnt-Api-Gateway.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

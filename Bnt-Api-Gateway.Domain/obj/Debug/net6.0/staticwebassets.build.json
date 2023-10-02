@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IbqHOxhtyKw4uPSZWFGEQTFSm7D2MCZQuQxTbu8gcLw=",
+  "Source": "Bnt-Api-Gateway.Domain",
+  "BasePath": "_content/Bnt-Api-Gateway.Domain",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

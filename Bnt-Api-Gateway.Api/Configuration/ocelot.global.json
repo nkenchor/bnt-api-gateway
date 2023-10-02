@@ -1,0 +1,20 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:40200",
+    "ErrorHandling": false
+  },
+  "HttpStatusCodeResponses": {
+    "401": {
+      "Message": "Unauthorized"
+    },
+    "403": {
+      "Message": "Forbidden"
+    },
+    "404": {
+      "Message": "Not Found"
+    },
+    "500": {
+      "Message": "Internal Server Error"
+    }
+  }
+}

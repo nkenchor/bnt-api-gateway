@@ -1,0 +1,33 @@
+{
+  "Routes": [
+    {
+        
+        "UpstreamPathTemplate": "/indent/{everything}",
+        "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+        "DownstreamPathTemplate": "/api/indent/{everything}",
+        "DownstreamScheme": "http",
+        "RouteIsCaseSensitive": false,
+        "SwaggerKey": "indent",
+        "DownstreamHostAndPorts": [
+                                    {
+                                        "Host": "localhost",
+                                        "Port": 40210
+                                    }],
+  
+                                    "AuthenticationOptions": {
+                                      "AuthenticationProviderKey": "Bearer",
+                                      "AllowedScopes": []
+                                    },
+          "RateLimitOptions": {
+          "ClientWhitelist": [],
+          "EnableRateLimiting": true,
+          "Period": "5s",
+          "PeriodTimespan": 1,
+          "Limit": 1
+        },
+        "FileCacheOptions": { 
+            "TtlSeconds": 30 
+        }
+    }
+  ]
+}

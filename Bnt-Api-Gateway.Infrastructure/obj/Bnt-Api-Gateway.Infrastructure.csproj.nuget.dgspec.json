@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Infrastructure/Bnt-Api-Gateway.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj",
+        "projectName": "Bnt-Api-Gateway.Domain",
+        "projectPath": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj",
+        "packagesPath": "/home/nkenchor/.nuget/packages/",
+        "outputPath": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/nkenchor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.AspnetcoreHttpcontext": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Infrastructure/Bnt-Api-Gateway.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Infrastructure/Bnt-Api-Gateway.Infrastructure.csproj",
+        "projectName": "Bnt-Api-Gateway.Infrastructure",
+        "projectPath": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Infrastructure/Bnt-Api-Gateway.Infrastructure.csproj",
+        "packagesPath": "/home/nkenchor/.nuget/packages/",
+        "outputPath": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/nkenchor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj": {
+                "projectPath": "/home/nkenchor/Project/dotnet/sytycc/bnt-api-gateway/Bnt-Api-Gateway.Domain/Bnt-Api-Gateway.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

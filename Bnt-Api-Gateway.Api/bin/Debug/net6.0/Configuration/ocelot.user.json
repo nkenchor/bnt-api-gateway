@@ -1,0 +1,33 @@
+{
+  "Routes": [
+    {
+        
+        "UpstreamPathTemplate": "/user/{everything}",
+        "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+        "DownstreamPathTemplate": "/api/user/{everything}",
+        "DownstreamScheme": "http",
+        "RouteIsCaseSensitive": false,
+        "SwaggerKey": "user",
+        "DownstreamHostAndPorts": [
+                                    {
+                                        "Host": "localhost",
+                                        "Port": 60100
+                                    }],
+  
+                                    "AuthenticationOptions": {
+                                      "AuthenticationProviderKey": "Bearer",
+                                      "AllowedScopes": []
+                                    },
+          "RateLimitOptions": {
+          "ClientWhitelist": [],
+          "EnableRateLimiting": true,
+          "Period": "5s",
+          "PeriodTimespan": 1,
+          "Limit": 1
+        },
+        "FileCacheOptions": { 
+            "TtlSeconds": 30 
+        }
+    }
+  ]
+}
